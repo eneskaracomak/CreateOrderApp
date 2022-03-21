@@ -90,8 +90,8 @@ namespace CreateOrderApp.WebApi
 			app.UseSwagger();
 			app.UseSwaggerUI(c =>
 			{
-				c.SwaggerEndpoint("/swagger/v1/swagger.json", "ApiDocument");
-				c.RoutePrefix = "ApiDocument";
+				c.SwaggerEndpoint("/swagger/v1/swagger.json", "ApiMethods");
+				c.RoutePrefix = "ApiMethods";
 
 			});
 		}
