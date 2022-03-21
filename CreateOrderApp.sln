@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateOrderApp.Core", "CreateOrderApp.Core\CreateOrderApp.Core.csproj", "{D4E47EF2-C28B-48B4-BE72-ECDF4D6C5629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateOrderApp.Core", "CreateOrderApp.Core\CreateOrderApp.Core.csproj", "{D4E47EF2-C28B-48B4-BE72-ECDF4D6C5629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateOrderApp.Entities", "CreateOrderApp.Entities\CreateOrderApp.Entities.csproj", "{0F8B628B-A71A-4CEF-8CC6-81A994A95B2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateOrderApp.Entities", "CreateOrderApp.Entities\CreateOrderApp.Entities.csproj", "{0F8B628B-A71A-4CEF-8CC6-81A994A95B2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateOrderApp.DataAccess", "CreateOrderApp.DataAccess\CreateOrderApp.DataAccess.csproj", "{A16446D0-2594-45B2-B942-87B240B9AF9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateOrderApp.DataAccess", "CreateOrderApp.DataAccess\CreateOrderApp.DataAccess.csproj", "{A16446D0-2594-45B2-B942-87B240B9AF9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateOrderApp.Business", "CreateOrderApp.Business\CreateOrderApp.Business.csproj", "{B2977937-68E1-4AF4-8A4B-6B6157ED5DB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateOrderApp.Business", "CreateOrderApp.Business\CreateOrderApp.Business.csproj", "{B2977937-68E1-4AF4-8A4B-6B6157ED5DB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateOrderApp.WebApi", "CreateOrderApp.WebApi\CreateOrderApp.WebApi.csproj", "{8D944F82-4EE9-413F-B7B2-022113494308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateOrderApp.WebApi", "CreateOrderApp.WebApi\CreateOrderApp.WebApi.csproj", "{8D944F82-4EE9-413F-B7B2-022113494308}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4832F874-D512-4F81-A2A4-CCB74F53BE17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8D944F82-4EE9-413F-B7B2-022113494308}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D944F82-4EE9-413F-B7B2-022113494308}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D944F82-4EE9-413F-B7B2-022113494308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4832F874-D512-4F81-A2A4-CCB74F53BE17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4832F874-D512-4F81-A2A4-CCB74F53BE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4832F874-D512-4F81-A2A4-CCB74F53BE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4832F874-D512-4F81-A2A4-CCB74F53BE17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
